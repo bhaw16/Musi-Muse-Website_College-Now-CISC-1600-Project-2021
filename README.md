@@ -1,4 +1,4 @@
-# Musi-Muse-Website_College-Now-CISC-1600-Project-2021
+# Musi-Muse-Website_Precollege-Bridges-to-Computing-Project-2021
 
 This project was for my Bridges to Computing pre-college class at Brooklyn College.
 I worked on this project in the fall of 2020 and finished it in January of 2021. I'm probably going to revamp this with some JS

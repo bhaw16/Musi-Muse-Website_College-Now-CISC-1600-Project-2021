@@ -1,0 +1,125 @@
+	html, body {
+		height: 100%;
+		box-sizing: border-box;
+		background-color: rgb(212,175,55);
+		font-family:"Forum";
+		line-height: 1.5em;
+		margin: 0em;
+	}
+	
+	.image-one, .image-two, .image-three, .image-four {
+	position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(192,192,192);
+    background-size: cover;
+    min-height: 100%;
+    background-attachment: fixed;
+}
+
+.image-one {
+	background-image: url(assets/whats-your-spotlight-on.jpg);
+}
+
+.image-two {
+	background-image: url(assets/listening-to-music-headphones.jpg);
+}
+
+.image-three {
+	background-image: url(assets/musical-headphones.jpg);
+}
+
+.image-four {
+	background-image: url(assets/podcasting.jpg);
+}
+
+.about-me, .connect, .intro, .info, .button-container {
+	background-color: rgb(212,175,55);
+    padding: 20px 45px;
+    margin: 35px;
+    text-align: center;
+}
+
+.line-break {
+	font-family: "music tfb";
+
+}
+
+.about-me {
+	text-align: center;
+}
+
+.nav ul {
+	list-style-type: none;
+	text-align: center;
+	display: block;
+	margin: auto;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(0,0,0);
+	height: 35px;
+	width: 100%;
+	position: fixed;
+	z-index: 3;
+
+}
+
+.nav li {
+	display: inline;
+
+}
+
+.nav li a {
+
+	text-decoration: none;
+	padding: 20px;
+	color: gold;
+	font-family: "Mayan"
+}
+
+.nav li a:hover {
+	background-color: rgb(255,153,204);
+	color: rgb(0,0,0);
+}
+
+.button {
+
+padding: 5px;
+background: hsla(55,56%,73%,0.78);
+color: rgb(0,0,0);
+border: 3px dotted gold;
+font-family: "Fredericka the Great", cursive, serif;
+font-size: 20px;
+border-radius: 5px;
+display: block;
+margin: auto;
+}
+
+
+
+.button a {
+
+	text-decoration: none;
+	padding: 5px;
+	color: rgb(0,0,0);
+}
+
+h1 {
+	font-family: "Abril Fatface", serif;
+}
+
+h2 {
+	font-family: "Limelight";
+}
+
+
+
+
+
+
+
+
+
+
+
+

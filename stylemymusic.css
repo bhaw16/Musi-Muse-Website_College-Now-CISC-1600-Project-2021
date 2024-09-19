@@ -1,0 +1,110 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ffbb11;
+}
+.nav ul {
+	list-style-type: none;
+	text-align: center;
+	margin: auto;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(0,0,0);
+	height: 35px;
+	width: 100%;
+	position: fixed;
+	z-index: 3;
+}
+
+.nav li {
+	display: inline;
+
+}
+
+.nav li a {
+
+	text-decoration: none;
+	padding: 20px;
+	color: gold;
+	font-family: "Mayan"
+}
+
+.nav li a:hover {
+	background-color: rgb(255,153,204);
+	color: rgb(0,0,0);
+}
+
+.button {
+
+padding: 5px;
+background: hsla(55,56%,73%,0.78);
+color: rgb(0,0,0);
+border: 3px dotted gold;
+font-family: "Fredericka the Great", cursive, serif;
+font-size: 20px;
+border-radius: 5px;
+display: block;
+margin: auto;
+}
+
+
+.button a {
+
+	text-decoration: none;
+	padding: 5px;
+	color: rgb(0,0,0);
+}
+
+
+
+.table table, th, td {
+
+border: 5px solid hsla(338, 84%, 52%, 0.49);
+background-color: rgba(245, 147, 0, 0.49);
+}
+
+.table th {
+	font-family: "Fredericka the Great", cursive, serif;
+	font-size: 25px;
+}
+
+.table td {
+
+	font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+
+	font-family: "Fredericka the Great", cursive, serif;
+}
+
+
+
+p, ol {
+
+font-family: "Montserrat", sans-serif;
+ 
+
+}
+
+.label {
+
+	display: block;
+	font-family: "Frank Ruhl Libre", serif;
+	text-align: center;
+}
+
+.textarea {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+	resize: none;
+	outline: none;
+	border: 3px dotted gold;
+	border-radius: 5px;
+	background-color: hsla(55,56%,73%,0.78);
+	font-family: "Times New Roman";
+}

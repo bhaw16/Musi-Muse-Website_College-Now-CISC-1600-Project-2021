@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!--page title (título de la página web)-->
+	<title>MusicMuse - Tu Música</title>
+	<!--page icon (icono de la página web)-->
+	<link rel="icon" type="image/x-icon" href="https://scx2.b-cdn.net/gfx/news/2016/5859357855cf6.jpg">
+	<link rel="stylesheet" type="text/css" href="styleyourmusic.css">
+	<link rel="stylesheet" type="text/css" href="fonts/Mayan.ttf">
+	<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Wire+One&family=Leckerli+One&family=Berkshire+Swash&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<!--nav bar (barra navegación)-->
+	<nav>
+		<div class="nav">
+<ul>
+<li><a href="proyecto.html">Hogar</a></li>
+<li><a href="mimúsica.html">Mi Música</a></li>
+<li><a href="tumúsica.html">Tu Música</a></li>
+</ul>
+		</div>
+	</nav>
+<!--click this link to read this page in English (hacer clic en este enlace para leer esta página web en inglés)-->
+
+	<button class="button" align="center"><a href="yourmusic.html">Read in English</a></button>
+
+<!--introduction to the form (introducción a la forma)-->
+	<div id="form h1"><h1>Tu Música</h1></div>
+
+<div id="form h2">
+<h2>¿Quieres compartir tu música? ¡Simplemente completa la forma en abajo! Estoy emocionada a ver tus preferencias de música. :)</h2>
+</div>
+
+<div id="form h3">
+<h3>Esto es un lugar seguro para compartir tu música, no vas a estar juzgado o nada como eso. Puedes compartir tu cuento de música en tanto que tú seas honesto(a).</h3>
+</div>
+
+<div class="form">
+	<!--form that asks users about their music tastes and their connection to music (una forma que les pregunta a los usarios sobre sus preferencias musicales y su conexión a la música)-->
+	<form action="tumúsicaentregracióndeforma.html" method="POST">
+		<h2>Forma de Tu Música</h1>
+		
+		<!--This question asks users what music they like (esta pregunta les pregunta sobre la música la que le gusta a los usarios)-->
+		<label class="label" for="liked music">¿A qué tipo de música te gusta?</label>
+		<br>
+		<textarea class="textarea" rows="5" cols="50" required minlength="10" maxlength="10000"></textarea>
+		
+		<br>
+		<br>
+		<!--This question asks users their relationship to music (esta pregunta les pregunta sobre su relación con la música a los usarios)-->
+		<label class="label" for="music connection">¿Cuál es tu conexión con la música? ¿Tienes una relación personal con ello?</label>
+		<br>
+		<textarea class="textarea" name="music connection" rows="5" cols="50" required minlength="10" maxlength="10000"></textarea>
+		<br>
+		<br>
+		<!--This question asks users their top 10 genres (esta pregunta les pregunta sus diez principales géneros favoritos de música a los usarios)-->
+		<label class="label" for="fave genres">¿Cuáles son tus <span id="genre">diez principales géneros de música favoritas?</span> Incluye un enlace a las canciones de eses géneros si tú quieras.</label>
+		<br>
+		<textarea class="textarea" name="fave genres" rows="5" cols="50" required minlength="10" maxlength="10000"></textarea>
+
+		<br>
+		<br>
+		<!--this question asks users their top 10 songs (esta pregunta les pregunta sus diez principales canciones favoritas a los usario)-->
+		<label class="label" for="fave songs">¿Cuáles son tus <span id="song">diez principales canciones favoritas?</span> Incluye un enlace a esas canciones si tú quieras.</label>
+		<br>
+
+		<textarea class="textarea" name="fave songs" rows="5" cols="50" required minlength="10" maxlength="10000"></textarea>
+
+		<br>
+		<br>
+		<!--this question asks users their top 10 artists (esta pregunta les pregunta sus diez principales artistas favoritos a los usarios)-->
+		<label class="label" for="fave artists">¿Cuáles son tus <span id="artist">diez principales artistas favoritas?</span> Incluye un enlace a sus redes (Spotify, iTunes, Soundcloud, YouTube y cualquier otros redes sociales o musicales) si tú quieras.</label>
+		
+		<br>
+		
+		<textarea class="textarea" name="fave artists" rows="5" cols="50" required minlength="10" maxlength="10000"></textarea>
+		
+		<br>
+		<br>
+		<!--this question asks users their top 10 albums/soundtracks/EPs (esta pregunta les pregunta sus diez principales álbumes/banda sonoras/reproducciones extendidas favoritos a los usarios)-->
+		<label class="label" for="fave albums">¿Cuáles son tus <span id="album">diez principales álbumes/banda sonoras/reproducciones extendidas favoritas</span>? Incluye un enlace a ellos si tú quieras.</label>
+
+		<br>
+
+		<textarea class="textarea" name="fave albums" rows="5" cols="50" required minlength="10" maxlength="10000"></textarea>
+
+		<br>
+		<br>
+		<!--this question asks users to share any playlists that they want (esta pregunta les pregunta compartir algunas listas de reproducción las que quieren comaprtir a los usarios)-->
+		<label class="label" for="playlists">¿Tú tengas cualquieres listas de reproducción las que tú quieras compartir? Incluye un enlace a ellos en aquí.</label>
+
+		<br>
+
+		<textarea name="playlists" class="textarea" rows="5" cols="50" required minlength="10" maxlength="10000"></textarea>
+
+		<br>
+		<br>
+		<!--This question asks users for music recommendations (esta pregunta pide las listas de reproducción del (de la) usario(a) si las quieren comprar los usarios)-->
+		<label class="label" for="recommendations">¿Cualquier recommendaciones de canciones, álbumes, artistas o bandas sonoras? Puedes incluir el enlace a ellos en aquí si tú quieras.</label>
+
+		<br>
+
+		<textarea class="textarea" name="recommendations" rows="5" cols="50" required minlength="10" maxlength="10000"></textarea>
+
+		<br>
+		<br>
+		<!--submit button (botón de entregar)-->
+		<button class="button">Entregar</button>
+
+	</form>
+</div>
+
+	<br>
+	<!--Click this link to return to the top of the page (hacer clic en este enlace para regresar a la cima de la página web)-->
+	<button class="button"><a href="tumúsica.html">Regresar a la cima</a></button>
+</body>
+</html>
